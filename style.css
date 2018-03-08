@@ -1,6 +1,16 @@
 /* @import url(https://fonts.googleapis.com/css?family=Playfair+Display:100,300,400,700,900); */
 body {
   background-color: #141414;
+  background-image: url("https://media.giphy.com/media/3o6ZtqyrkPXluOy5oc/giphy.gif");
+  /* background-image: url("https://media.giphy.com/media/l49FpvpRi1GbFBGhO/giphy.gif"); */
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
   margin:0; padding:0;
   overflow-x:hidden;
   height:100%;

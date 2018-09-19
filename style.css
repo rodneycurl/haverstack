@@ -2,7 +2,7 @@
 body {
   background-color: #141414;
   /* background-image: url("https://media.giphy.com/media/3o6ZtqyrkPXluOy5oc/giphy.gif"); abstract one */
-  background-image: url("https://media.giphy.com/media/l49FpvpRi1GbFBGhO/giphy.gif"); birdwayne
+  background-image: url("https://media.giphy.com/media/l49FpvpRi1GbFBGhO/giphy.gif");
   /* background-image: url("https://media.giphy.com/media/e6bq6Xih5SzZK/giphy.gif"); mrt breakdance */
   /* background-image: url("https://media.giphy.com/media/3o752njVJS0WhxeAec/giphy.gif"); rome */
 
@@ -58,7 +58,14 @@ a {
     color: #fff;
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #fc5c20;
+    background-color: #333;
+    background-origin: content-box;
+    padding: 5px;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 .left {
     max-width:20em;
